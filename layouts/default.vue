@@ -6,7 +6,7 @@
 </template>
 
 <script>
-// import Phenomenon from 'phenomenon-px'
+import Phenomenon from 'phenomenon-px'
 
 export default {
     mounted() {
@@ -17,7 +17,7 @@ export default {
         const render = () => {}
 
         // kick loop
-        // Phenomenon(fragment, uniforms, render, this.$refs.canvas)
+        Phenomenon(fragment, uniforms, render, this.$refs.canvas)
     }
 }
 </script>
